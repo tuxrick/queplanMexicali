@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="es" ng-app="Trebol">
    <head>
-       <link rel="stylesheet" href="styles/styles.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="styles/styles.css">
    </head>
    <body>
        <div class="container_body">
@@ -16,20 +17,35 @@
                 <img class="city_image" src="./img/city_image.png">
             </nav>
             <div class="content_select">
-                <div>
-                    <img class="banner" src="./img/index_banner.png">
+                <div class="banner">
+                    <img class="img-responsive" src="./img/index_banner.png">
                 </div>
                 <div class="center">
-                        <img class="service_img col-4" src="./img/antros_img.png">
-                        <img class="service_img col-4" src="./img/bares_img.png">
-                        <img class="service_img col-4" src="./img/rest_img.png">
+                    <div class="row">
+                        <div class="col-4">
+                            <img class="img-responsive" src="./img/antros_img.png">
+                        </div>    
+                        <div class="col-4">
+                            <img class="img-responsive" src="./img/bares_img.png">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-responsive" src="./img/rest_img.png">
+                        </div>                                                    
+                    </div> 
+                    <div class="row">
+                            <div class="col-4">
+                                <img class="img-responsive" src="./img/cant_img.png">
+                            </div>    
+                            <div class="col-4">
+                                <img class="img-responsive" src="./img/hotel_img.png">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-responsive" src="./img/otros_img.png">
+                            </div>                                                    
+                        </div> 
+                    </div>                                            
                 </div>
-                <div class="center">
-                        <img class="service_img col-4" src="./img/cant_img.png">
-                        <img class="service_img col-4" src="./img/hotel_img.png">
-                        <img class="service_img col-4" src="./img/otros_img.png">
-                </div>
-            </div>
+
        </div>
    </body>
 </html>       

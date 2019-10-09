@@ -138,20 +138,6 @@ $breakpoint-large: 60em; // 960px
   clear: both;
 }
 
-.col-1,
-.col-2,
-.col-3,
-.col-4,
-.col-5,
-.col-6,
-.col-7,
-.col-8,
-.col-9,
-.col-10,
-.col-11,
-.col-12 {
-  width: $width;
-}
 
 .col-1-sm { width:($width / 12) - ($gutter * 11 / 12); }
 .col-2-sm { width: ($width / 6) - ($gutter * 10 / 12); }
@@ -182,5 +168,23 @@ $breakpoint-large: 60em; // 960px
 
   .hidden-sm {
     display: block;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 767px){
+
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    width: $width;
   }
 }
